@@ -16,8 +16,8 @@ def _score_regressor(y_pred, y_true):
 
 class BaseClassifier():
 
-    def init(self):
-        pass
+    def __init__(self):
+        self.is_fitted = False
 
     def score(self, X, y):
         y_pred = self.predict(X)
@@ -27,13 +27,17 @@ class BaseClassifier():
         pass
 
     def predict(self, X):
+        if self.is_fitted:
+            pass
+
+    def __repr__(self):
         pass
 
 
 class BaseRegressor():
 
-    def init(self):
-        pass
+    def __init__(self):
+        self.is_fitted = False
 
     def score(self, X, y):
         y_pred = self.predict(X)
@@ -43,4 +47,8 @@ class BaseRegressor():
         pass
 
     def predict(self, X):
+        if self.is_fitted:
+            pass
+
+    def __repr__(self):
         pass

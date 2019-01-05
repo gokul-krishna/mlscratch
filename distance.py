@@ -21,9 +21,12 @@ def chebyshev(p, q):
     return np.max(np.abs(p - q))
 
 
+namespace = __import__(__name__)
+
+
 def get_metric(name=None):
     if name is not None:
-        return getattr(__main__, name)
+        return getattr(namespace.distance, name)
 
 
 # Alias

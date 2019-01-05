@@ -21,6 +21,11 @@ def chebyshev(p, q):
     return np.max(np.abs(p - q))
 
 
+def get_metric(name=None):
+    if name is not None:
+        return getattr(__main__, name)
+
+
 # Alias
-l2norm = euclidean
-l1norm = city_block
+l2_norm = euclidean
+l1_norm = city_block

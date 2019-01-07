@@ -27,5 +27,8 @@ class kNNClassifier(BaseClassifier):
         return _predict(self.X, self.y, xn, self.k, self.dist_fun)
 
     def predict(self, X_new):
-        result = [self._predict_one(xn) for xn in X_new]
-        return np.array(result)
+        if self.is_fitted:
+            result = [self._predict_one(xn) for xn in X_new]
+            return np.array(result)
+        else:
+            print('Call .fit() method first')

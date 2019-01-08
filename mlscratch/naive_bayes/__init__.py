@@ -1,1 +1,2 @@
-from .NaiveBayes import *
+from .NaiveBayes import NaiveBayesClassifier
+from .GaussianNB import GaussianNBClassifier

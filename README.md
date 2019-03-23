@@ -5,14 +5,28 @@ Implementation of machine learning algorithms from scratch.
 
 ### Classification
 
-|Algorithm| Implementation  | Explanation  | Validation with sklearn |  
-|---| :---: | :---: | :---: |
-|k-Nearest Neighbor Classifier  | [here](mlscratch/knn/kNN.py)  | [TODO]()  | [here](nbs/kNN.ipynb) |  
-| Classical Naive Bayes Classifier| [here](mlscratch/naive_bayes/NaiveBayes.py) | [TODO]() | [here](nbs/ClassicalNaiveBayes.ipynb) |  
-| Gaussian Naive Bayes Classifier | [here](mlscratch/naive_bayes/GaussianNB.py) | [TODO]() | [here](nbs/GussianNB.ipynb) |  
+|Algorithm| Implementation  | Validation |  
+|---| :---: | :---: |
+|k-Nearest Neighbor Classifier  | [here](mlscratch/knn/kNN.py)  | [here](nbs/kNN.ipynb) |  
+| Classical Naive Bayes Classifier| [here](mlscratch/naive_bayes/NaiveBayes.py) | [here](nbs/ClassicalNaiveBayes.ipynb) |  
+| Gaussian Naive Bayes Classifier | [here](mlscratch/naive_bayes/GaussianNB.py) | [here](nbs/GussianNB.ipynb) |  
 
 ### Clustering
 
-|Algorithm| Implementation  | Explanation  | Validation with sklearn |  
-|---| :---: | :---: | :---: |
-|k-Means Clustering  | [here](mlscratch/k_means/kMeans.py)  | [TODO]()  | [here](nbs/kMeans.ipynb) |
+|Algorithm| Implementation  | Validation |  
+|---| :---: | :---: |
+|k-Means Clustering  | [here](mlscratch/k_means/kMeans.py)  | [here](nbs/kMeans.ipynb) |
+
+### Outlier Detection
+|Algorithm| Implementation  | Validation |  
+|---| :---: | :---: |
+| iforest | [here](mlscratch/k_means/kMeans.py)  | [here](nbs/) |
+
+### Linear Algebra
+|Algorithm| Implementation  | Validation |  
+|---| :---: | :---: |
+| Backward Substitution  | [here](mlscratch/linear_algebra/BackSub.py) | [here](nbs/BackSubstitution.ipynb) |
+| Matrix Solve  | [here](mlscratch/linear_algebra/MatrixSolve.py) | [here](nbs/MatrixSolve.ipynb) |
+| Linear Regression  | [here](mlscratch/linear_algebra/LinearRegression.py) | [here](nbs/LinearRegression.ipynb) |
+| SVD Regression  | [here](mlscratch/linear_algebra/SVD_Regression.py) | [here](nbs/SVD_Regression.ipynb) |
+| Page Rank  | [here](mlscratch/linear_algebra/PageRank.py) | [here](nbs/PageRank.ipynb) |

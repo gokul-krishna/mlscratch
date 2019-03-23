@@ -2,6 +2,7 @@ from ..distance import get_metric, euclidean
 from ..imports import *
 euclidean
 
+
 class kMeans():
 
     def __init__(self, k=2, dist_metric='euclidean'):

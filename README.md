@@ -17,10 +17,10 @@ Implementation of machine learning algorithms from scratch.
 |---| :---: | :---: |
 |k-Means Clustering  | [here](mlscratch/k_means/kMeans.py)  | [here](nbs/kMeans.ipynb) |
 
-### Outlier Detection
+### Others
 |Algorithm| Implementation  | Validation |  
 |---| :---: | :---: |
-| iforest | [here](mlscratch/k_means/kMeans.py)  | [here](nbs/) |
+
 
 ### Linear Algebra
 |Algorithm| Implementation  | Validation |  

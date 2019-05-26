@@ -10,6 +10,7 @@ Implementation of machine learning algorithms from scratch.
 |k-Nearest Neighbor Classifier  | [here](mlscratch/knn/kNN.py)  | [here](nbs/kNN.ipynb) |  
 | Classical Naive Bayes Classifier| [here](mlscratch/naive_bayes/NaiveBayes.py) | [here](nbs/ClassicalNaiveBayes.ipynb) |  
 | Gaussian Naive Bayes Classifier | [here](mlscratch/naive_bayes/GaussianNB.py) | [here](nbs/GussianNB.ipynb) |  
+| Logistic Regression Classifier | [here](mlscratch/logistic_regression/LogisticRegression.py) | [here](nbs/LogisticRegression.ipynb) |  
 
 ### Clustering
 
